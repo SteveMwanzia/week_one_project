@@ -2,8 +2,20 @@
   text-align: center;
   display: flex;
   font-size: 15px;
-  margin: 200px 100px;
+  margin: 200px 400px;
+  font-family:"Big Shoulders Display";
 }
+
+.App p {
+  font-family:"Lexend Deca";
+  text-align: left;
+  color: white;
+}
+
+.App h1 {
+  color: white;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -12,14 +24,32 @@
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+  font-family:"Lexend Deca";
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
 }
 
+.suvs button {
+  color: hsl(184, 100%, 22%);
+  font-family:"Lexend Deca";
+}
+
 .luxurys {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+  
+}
+
+.luxurys button {
+  color: hsl(179, 100%, 13%);
+  font-family:"Lexend Deca";
 }
 
 @media (prefers-reduced-motion: no-preference) {
