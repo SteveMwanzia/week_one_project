@@ -26,11 +26,11 @@ function App() {
         <Card logo = {sedanIcon} title = "SEDANS" description = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip." label= "Learn More"></Card></div>
 
       <div className="suvs" >
-      <Card  logo = {suvIcon} title = "SUVS" description = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip." label= "Learn More"></Card>
+      <Card  logo = {suvIcon} title = "SUVS" description = "Take an SUV for its spaciuous interior, power, and versatility. Perfect for your next family vacation and off-road adventures." label= "Learn More"></Card>
       </div>
 
       <div className="luxurys">
-      <Card  logo = {luxuryIcon} title = "LUXURY" description = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip." label= "Learn More"></Card>
+      <Card  logo = {luxuryIcon} title = "LUXURY" description = "Cruise in the best car brands witjout the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style." label= "Learn More" ></Card>
       </div>
 
     </div>
