@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './Components/Card'
+import sedanIcon from './images/icon-sedans.svg'
+import suvIcon from './images/icon-suvs.svg'
+import luxuryIcon from './images/icon-luxury.svg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App" >
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +21,18 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <div className="sedans" >
+        <Card logo = {sedanIcon} title = "SEDANS" description = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip." label= "Learn More"></Card></div>
+
+      <div className="suvs" >
+      <Card  logo = {suvIcon} title = "SUVS" description = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip." label= "Learn More"></Card>
+      </div>
+
+      <div className="luxurys">
+      <Card  logo = {luxuryIcon} title = "LUXURY" description = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip." label= "Learn More"></Card>
+      </div>
+
     </div>
   );
 }
